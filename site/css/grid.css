@@ -1,0 +1,157 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a img {max-width: 100%;}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+/* Smartphones */
+@media only screen and (min-width: 320px ){
+    
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .offiset-s-1 {margin: 8.33%;}
+    .offiset-s-2 {margin: 16.66%;}
+    .offiset-s-3 {margin: 25%;}
+    .offiset-s-4 {margin: 33.33%;}
+    .offiset-s-5 {margin: 41.66%;}
+    .offiset-s-6 {margin: 50%;}
+    .offiset-s-7 {margin: 58.33%;}
+    .offiset-s-8 {margin: 66.66%;}
+    .offiset-s-9 {margin: 75%;}
+    .offiset-s-10 {margin: 83.33%;}
+    .offiset-s-11 {margin: 91.66%;}
+    .offiset-s-12 {margin: 100%;}  
+    
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px){
+    
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+    .offiset-t-1 {margin-left: 8.33%;}
+    .offiset-t-2 {margin-left:  16.66%;}
+    .offiset-t-3 {margin-left: 25%;}
+    .offiset-t-4 {margin-left: 33.33%;}
+    .offiset-t-5 {margin-left: 41.66%;}
+    .offiset-t-6 {margin-left: 50%;}
+    .offiset-t-7 {margin-left: 58.33%;}
+    .offiset-t-8 {margin-left: 66.66%;}
+    .offiset-t-9 {margin-left: 75%;}
+    .offiset-t-10 {margin-left: 83.33%;}
+    .offiset-t-11 {margin-left: 91.66%;}
+    .offiset-t-12 {margin-left: 100%;}  
+}
+
+/* Desktop */
+@media only screen and (min-width: 978px){
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .offiset-1 {margin: 8.33%;}
+    .offiset-2 {margin: 16.66%;}
+    .offiset-3 {margin: 25%;}
+    .offiset-4 {margin: 33.33%;}
+    .offiset-5 {margin: 41.66%;}
+    .offiset-6 {margin: 50%;}
+    .offiset-7 {margin: 58.33%;}
+    .offiset-8 {margin: 66.66%;}
+    .offiset-9 {margin: 75%;}
+    .offiset-10 {margin: 83.33%;}
+    .offiset-11 {margin: 91.66%;}
+    .offiset-12 {margin: 100%;}
+    
+    
+}
+
+/* Smart TV */
+@media only screen and (min-width: 1320xp){
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .offiset-1 {margin: 8.33%;}
+    .offiset-2 {margin: 16.66%;}
+    .offiset-3 {margin: 25%;}
+    .offiset-4 {margin: 33.33%;}
+    .offiset-5 {margin: 41.66%;}
+    .offiset-6 {margin: 50%;}
+    .offiset-7 {margin: 58.33%;}
+    .offiset-8 {margin: 66.66%;}
+    .offiset-9 {margin: 75%;}
+    .offiset-10 {margin: 83.33%;}
+    .offiset-11 {margin: 91.66%;}
+    .offiset-12 {margin: 100%;}
+}
